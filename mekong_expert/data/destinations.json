@@ -1,0 +1,242 @@
+[
+  {
+    "code": "T1",
+    "name": "Làng du lịch Mỹ Khánh",
+    "description": "Làng du lịch Mỹ Khánh thuộc thành phố Cần Thơ, cách trung tâm dưới 30 km, là điểm du lịch miệt vườn tiêu biểu với vườn cây ăn trái và không gian sông nước. Du khách hái trái cây theo mùa, chơi trò chơi dân gian, nghe đờn ca tài tử và thưởng thức đặc sản. Điểm đến phù hợp chuyến đi một ngày, ngân sách dưới 500.000 đồng/người.",
+    "image": "assets/destinations/T1.jpeg",
+    "source_caption": "Hình 1. Làng du lịch Mỹ Khánh",
+    "video": "assets/videos/T1.mp4"
+  },
+  {
+    "code": "T2",
+    "name": "Chợ nổi Cái Răng",
+    "description": "Chợ nổi Cái Răng thuộc thành phố Cần Thơ, cách trung tâm dưới 30 km, là chợ nổi nổi tiếng bậc nhất miền Tây, nơi ghe xuồng mua bán nông sản ngay trên sông. Du khách đi xuồng len giữa các ghe hàng, tìm hiểu đời sống thương hồ, dùng bữa sáng trên sông và ngắm bình minh. Điểm đến phù hợp chuyến đi nửa ngày đến một ngày, ngân sách chủ yếu dưới 500.000 đồng/người.",
+    "image": "assets/destinations/T2.jpg",
+    "source_caption": "Hình 2. Chợ nổi Cái Răng",
+    "video": "assets/videos/T2.mp4"
+  },
+  {
+    "code": "T3",
+    "name": "Khu du lịch Cồn Phụng",
+    "description": "Khu du lịch Cồn Phụng nằm giữa sông Tiền, thuộc tỉnh Vĩnh Long, cách trung tâm hành chính tỉnh khoảng 30–100 km, nổi tiếng với nghề làm kẹo dừa và dấu tích gắn với Đạo Dừa. Du khách tìm hiểu nghề truyền thống, chơi trò chơi dân gian và tham quan di tích. Điểm đến phù hợp chuyến đi nửa ngày hoặc một ngày, ngân sách từ thấp đến trung bình, đa dạng nhóm khách.",
+    "image": "assets/destinations/T3.jpeg",
+    "source_caption": "Hình 3. Khu du lịch Cồn Phụng",
+    "video": "assets/videos/T3.mp4"
+  },
+  {
+    "code": "T4",
+    "name": "Cù lao Thới Sơn",
+    "description": "Cù lao Thới Sơn là cù lao giữa sông Tiền, thuộc tỉnh Đồng Tháp theo phân loại của tập sự kiện, cách trung tâm dưới 30 km, với vườn cây ăn trái và kênh rạch chằng chịt. Du khách đi xuồng, thuyền khám phá sông nước, thưởng thức trái cây, đờn ca tài tử và ẩm thực địa phương. Điểm đến phù hợp chuyến đi một ngày, ngân sách dưới 500.000 đồng/người, hợp với gia đình, nhóm bạn và cặp đôi.",
+    "image": "assets/destinations/T4.jpeg",
+    "source_caption": "Hình 4. Cù lao Thới Sơn",
+    "video": "assets/videos/T4.mp4"
+  },
+  {
+    "code": "T5",
+    "name": "Làng du lịch Mỹ Xương",
+    "description": "Làng du lịch Mỹ Xương thuộc tỉnh Đồng Tháp, cách trung tâm hành chính tỉnh khoảng 30–100 km, là điểm du lịch miệt vườn và nông nghiệp với các vườn trái cây, tiêu biểu là vườn xoài. Du khách hái trái, chơi trò chơi dân gian, tìm hiểu sản phẩm địa phương và dùng bữa đặc sản đồng quê. Điểm đến phù hợp chuyến đi nửa ngày hoặc một ngày, ngân sách từ thấp đến trung bình.",
+    "image": "assets/destinations/T5.jpg",
+    "source_caption": "Hình 5. Trải nghiệm tại vườn xoài ở Làng du lịch Mỹ Xương",
+    "video": "assets/videos/T5.mp4"
+  },
+  {
+    "code": "T6",
+    "name": "Làng hoa Sa Đéc",
+    "description": "Làng hoa Sa Đéc thuộc tỉnh Đồng Tháp, cách trung tâm hành chính tỉnh khoảng 30–100 km, là làng nghề trồng hoa kiểng lâu đời, điểm du lịch nông nghiệp – làng nghề tiêu biểu của vùng. Du khách tham quan vườn hoa, tìm hiểu nghề trồng hoa, trải nghiệm nông thôn và chụp ảnh cảnh quan. Điểm đến phù hợp chuyến đi nửa ngày đến một ngày, ngân sách từ thấp đến khoảng 1.000.000 đồng/người.",
+    "image": "assets/destinations/T6.jpeg",
+    "source_caption": "Hình 6. Làng hoa Sa Đéc",
+    "video": "assets/videos/T6.mp4"
+  },
+  {
+    "code": "T7",
+    "name": "Khu di tích Xẻo Quýt",
+    "description": "Khu di tích Xẻo Quýt thuộc tỉnh Đồng Tháp, cách trung tâm hành chính tỉnh khoảng 30–100 km, nằm giữa rừng tràm với hệ thống kênh rạch dày đặc. Du khách đi xuồng dưới tán rừng, tham quan cảnh quan đất ngập nước và quan sát hệ sinh thái tự nhiên. Điểm đến thuộc loại hình sinh thái rừng – đất ngập nước, phù hợp chuyến đi nửa ngày hoặc một ngày, ngân sách dưới 500.000 đồng/người, hợp với nhiều nhóm khách.",
+    "image": "assets/destinations/T7.jpeg",
+    "source_caption": "Hình 7. Khu di tích Xẻo Quýt",
+    "video": "assets/videos/T7.mp4"
+  },
+  {
+    "code": "T8",
+    "name": "Khu du lịch sinh thái Gáo Giồng",
+    "description": "Khu du lịch sinh thái Gáo Giồng thuộc tỉnh Đồng Tháp, cách trung tâm hành chính tỉnh khoảng 100–200 km, là khu rừng tràm ngập nước đặc trưng của vùng Đồng Tháp Mười. Du khách đi xuồng, tham quan rừng tràm, quan sát chim và tìm hiểu hệ sinh thái tự nhiên. Điểm đến phù hợp chuyến đi nửa ngày hoặc một ngày, ngân sách chủ yếu dưới 500.000 đồng/người.",
+    "image": "assets/destinations/T8.jpeg",
+    "source_caption": "Hình 8. Khu du lịch sinh thái Gáo Giồng",
+    "video": "assets/videos/T8.mp4"
+  },
+  {
+    "code": "T9",
+    "name": "Vườn quốc gia Tràm Chim",
+    "description": "Vườn quốc gia Tràm Chim thuộc tỉnh Đồng Tháp, cách trung tâm hành chính tỉnh khoảng 100–200 km, là khu bảo tồn đất ngập nước tiêu biểu của Đồng Tháp Mười, nổi tiếng với quần thể chim nước. Du khách quan sát chim, đi xuồng giữa rừng tràm và tìm hiểu hệ sinh thái tự nhiên. Điểm đến phù hợp chuyến đi nửa ngày hoặc một ngày, ngân sách chủ yếu dưới 500.000 đồng/người.",
+    "image": "assets/destinations/T9.jpeg",
+    "source_caption": "Hình 9. Vườn quốc gia Tràm Chim",
+    "video": "assets/videos/T9.mp4"
+  },
+  {
+    "code": "T10",
+    "name": "Rừng tràm Trà Sư",
+    "description": "Rừng tràm Trà Sư thuộc tỉnh An Giang, cách trung tâm hành chính tỉnh khoảng 100–200 km, là khu rừng tràm ngập nước rộng lớn với hệ sinh thái phong phú. Du khách đi xuồng hoặc thuyền dưới tán rừng, tham quan cảnh quan đất ngập nước và quan sát chim. Điểm đến phù hợp nhiều khung thời gian, từ nửa ngày đến từ ba ngày, ngân sách từ thấp đến khoảng 1.000.000 đồng/người.",
+    "image": "assets/destinations/T10.jpeg",
+    "source_caption": "Hình 10. Rừng tràm Trà Sư",
+    "video": "assets/videos/T10.mp4"
+  },
+  {
+    "code": "T11",
+    "name": "Miếu Bà Chúa Xứ Núi Sam",
+    "description": "Miếu Bà Chúa Xứ Núi Sam thuộc tỉnh An Giang, cách trung tâm hành chính tỉnh khoảng 100–200 km, là trung tâm tín ngưỡng lớn của vùng, gắn với lễ hội Vía Bà. Du khách tham quan miếu, tìm hiểu văn hóa tín ngưỡng, kiến trúc và tham gia lễ hội khi có tổ chức. Điểm đến thuộc loại hình du lịch tâm linh, ngân sách dưới 300.000 đồng/người, phù hợp chuyến đi một ngày đến hai ngày một đêm.",
+    "image": "assets/destinations/T11.jpg",
+    "source_caption": "Hình 11. Miếu Bà Chúa Xứ Núi Sam",
+    "video": "assets/videos/T11.mp4"
+  },
+  {
+    "code": "T12",
+    "name": "Khu bảo tồn thiên nhiên Lung Ngọc Hoàng",
+    "description": "Khu bảo tồn thiên nhiên Lung Ngọc Hoàng thuộc thành phố Cần Thơ, cách trung tâm hành chính tỉnh khoảng 30–100 km, là vùng rừng tràm và đầm lầy nước ngọt được xem là lá phổi xanh của khu vực. Du khách đi xuồng, tham quan cảnh quan đất ngập nước, quan sát chim và tìm hiểu hệ sinh thái. Điểm đến phù hợp chuyến đi một ngày hoặc hai ngày một đêm, ngân sách dưới 300.000 đồng/người.",
+    "image": "assets/destinations/T12.jpeg",
+    "source_caption": "Hình 12. Khu bảo tồn thiên nhiên Lung Ngọc Hoàng",
+    "video": "assets/videos/T12.mp4"
+  },
+  {
+    "code": "T13",
+    "name": "Vườn quốc gia U Minh Thượng",
+    "description": "Vườn quốc gia U Minh Thượng thuộc tỉnh An Giang, cách trung tâm hành chính tỉnh khoảng 30–100 km, là khu rừng tràm đặc trưng của vùng U Minh. Du khách đi xuồng trong rừng tràm, quan sát chim và tìm hiểu hệ sinh thái đất ngập nước. Điểm đến phù hợp chuyến đi một ngày hoặc hai ngày một đêm, ngân sách chủ yếu từ 300.000 đến dưới 500.000 đồng/người.",
+    "image": "assets/destinations/T13.jpeg",
+    "source_caption": "Hình 13. Vườn quốc gia U Minh Thượng",
+    "video": "assets/videos/T13.mp4"
+  },
+  {
+    "code": "T14",
+    "name": "Chùa Dơi",
+    "description": "Chùa Dơi thuộc thành phố Cần Thơ, cách trung tâm hành chính tỉnh khoảng 30–100 km, là ngôi chùa Khmer nổi tiếng với kiến trúc đặc trưng và đàn dơi sinh sống trong khuôn viên. Du khách tham quan chùa, tìm hiểu kiến trúc, văn hóa tín ngưỡng và lễ hội của đồng bào Khmer. Điểm đến thuộc loại hình du lịch tâm linh, ngân sách dưới 300.000 đồng/người, phù hợp chuyến đi một ngày.",
+    "image": "assets/destinations/T14.jpg",
+    "source_caption": "Hình 14. Chùa Dơi",
+    "video": "assets/videos/T14.mp4"
+  },
+  {
+    "code": "T15",
+    "name": "Chùa Xiêm Cán",
+    "description": "Chùa Xiêm Cán thuộc tỉnh Cà Mau, cách trung tâm hành chính tỉnh khoảng 30–100 km, là ngôi chùa Khmer có kiến trúc độc đáo với nhiều tượng và họa tiết đặc trưng. Du khách tham quan chùa, tìm hiểu kiến trúc, văn hóa tín ngưỡng và lễ hội của cộng đồng Khmer. Điểm đến thuộc loại hình du lịch tâm linh, ngân sách dưới 300.000 đồng/người, phù hợp chuyến đi hai ngày một đêm trở lên.",
+    "image": "assets/destinations/T15.jpg",
+    "source_caption": "Hình 15. Chùa Xiêm Cán",
+    "video": "assets/videos/T15.mp4"
+  },
+  {
+    "code": "T16",
+    "name": "Nhà Công tử Bạc Liêu",
+    "description": "Nhà Công tử Bạc Liêu thuộc tỉnh Cà Mau, cách trung tâm hành chính tỉnh khoảng 30–100 km, là công trình kiến trúc cổ gắn với câu chuyện về công tử Bạc Liêu một thời. Du khách tham quan nhà cổ, tìm hiểu lịch sử, thưởng thức đờn ca tài tử và đặc sản địa phương. Điểm đến thuộc loại hình văn hóa – lịch sử, ngân sách dưới 300.000 đồng/người, phù hợp chuyến đi một ngày hoặc hai ngày một đêm.",
+    "image": "assets/destinations/T16.jpg",
+    "source_caption": "Hình 16. Nhà Công tử Bạc Liêu",
+    "video": "assets/videos/T16.mp4"
+  },
+  {
+    "code": "T17",
+    "name": "VinWonders Phú Quốc",
+    "description": "VinWonders Phú Quốc thuộc tỉnh An Giang (đảo Phú Quốc), cách trung tâm hành chính tỉnh khoảng 100–200 km tính cả chặng đường biển, là tổ hợp công viên chủ đề và công viên nước quy mô lớn. Du khách chơi các trò chơi, tham quan thủy cung, thưởng thức ẩm thực và chụp ảnh cảnh quan. Điểm đến thuộc loại hình vui chơi giải trí, ngân sách trên 1.000.000 đồng/người/ngày, phù hợp chuyến đi từ hai ngày một đêm.",
+    "image": "assets/destinations/T17.jpg",
+    "source_caption": "Hình 17. VinWonders Phú Quốc",
+    "video": "assets/videos/T17.mp4"
+  },
+  {
+    "code": "T18",
+    "name": "Sun World Hòn Thơm",
+    "description": "Sun World Hòn Thơm thuộc tỉnh An Giang (đảo Phú Quốc), cách trung tâm hành chính tỉnh khoảng 100–200 km tính cả chặng đường biển, nổi bật với tuyến cáp treo vượt biển và khu vui chơi trên đảo Hòn Thơm. Du khách đi cáp treo, tắm biển, thư giãn tại bãi biển và vui chơi giải trí. Điểm đến thuộc loại hình vui chơi giải trí, ngân sách trên 1.000.000 đồng/người/ngày, phù hợp chuyến đi từ hai ngày một đêm.",
+    "image": "assets/destinations/T18.jpeg",
+    "source_caption": "Hình 18. Sun World Hòn Thơm",
+    "video": "assets/videos/T18.mp4"
+  },
+  {
+    "code": "T19",
+    "name": "Khu du lịch Suối Tranh",
+    "description": "Khu du lịch Suối Tranh thuộc tỉnh An Giang (đảo Phú Quốc), cách trung tâm hành chính tỉnh khoảng 100–200 km tính cả chặng đường biển, là thắng cảnh thiên nhiên với dòng suối chảy qua rừng và các tầng thác đá. Du khách ngắm cảnh, quan sát hệ sinh thái, chụp ảnh và thưởng thức đặc sản Phú Quốc. Điểm đến thuộc loại hình sinh thái, ngân sách dưới 300.000 đồng/người, phù hợp chuyến đi từ hai ngày một đêm.",
+    "image": "assets/destinations/T19.jpeg",
+    "source_caption": "Hình 19. Khu du lịch Suối Tranh",
+    "video": "assets/videos/T19.mp4"
+  },
+  {
+    "code": "T20",
+    "name": "Bãi Cây Mến – đảo Nam Du",
+    "description": "Bãi Cây Mến trên đảo Nam Du thuộc tỉnh An Giang, cách trung tâm hành chính tỉnh khoảng 30–100 km tính cả chặng đường biển, là bãi biển hoang sơ với cát trắng, nước trong và không gian yên tĩnh. Du khách tắm biển, thư giãn, đi tàu hoặc thuyền tham quan các đảo lân cận. Điểm đến thuộc loại hình du lịch biển đảo, ngân sách từ 500.000 đồng/người/ngày, phù hợp chuyến đi từ hai ngày một đêm.",
+    "image": "assets/destinations/T20.png",
+    "source_caption": "Hình 20. Bãi Cây Mến – đảo Nam Du",
+    "video": "assets/videos/T20.mp4"
+  },
+  {
+    "code": "T21",
+    "name": "Điểm du lịch cộng đồng Cồn Sơn",
+    "description": "Điểm du lịch cộng đồng Cồn Sơn thuộc thành phố Cần Thơ, cách trung tâm dưới 30 km, là cồn nhỏ giữa sông Hậu, nơi người dân trực tiếp đón khách. Du khách trải nghiệm làm bánh dân gian, sinh hoạt nông thôn, tham quan vườn cây và thưởng thức ẩm thực địa phương. Điểm đến thuộc loại hình miệt vườn – sông nước, phù hợp chuyến đi từ nửa ngày đến hai ngày một đêm, ngân sách từ thấp đến dưới 1.000.000 đồng/người.",
+    "image": "assets/destinations/T21.jpg",
+    "source_caption": "Hình 21. Điểm du lịch cộng đồng Cồn Sơn",
+    "video": "assets/videos/T21.mp4"
+  },
+  {
+    "code": "T22",
+    "name": "Nhà cổ Bình Thủy",
+    "description": "Nhà cổ Bình Thủy thuộc thành phố Cần Thơ, cách trung tâm dưới 30 km, là ngôi nhà cổ hơn một thế kỷ tuổi, kết hợp kiến trúc Á – Âu với nội thất và vườn cây cổ. Du khách tham quan kiến trúc, tìm hiểu lịch sử và đời sống Nam Bộ xưa, chụp ảnh và thưởng thức ẩm thực. Điểm đến thuộc loại hình văn hóa – lịch sử, phù hợp chuyến đi nửa ngày hoặc một ngày, ngân sách dưới 500.000 đồng/người.",
+    "image": "assets/destinations/T22.jpg",
+    "source_caption": "Hình 22. Nhà cổ Bình Thủy",
+    "video": "assets/videos/T22.mp4"
+  },
+  {
+    "code": "T23",
+    "name": "Nhà cổ Huỳnh Thủy Lê",
+    "description": "Nhà cổ Huỳnh Thủy Lê thuộc tỉnh Đồng Tháp (Sa Đéc), cách trung tâm hành chính tỉnh khoảng 30–100 km, là ngôi nhà cổ hơn một thế kỷ tuổi với kiến trúc kết hợp Đông – Tây và nhiều chi tiết trang trí tinh xảo. Du khách tham quan kiến trúc, tìm hiểu lịch sử, chụp ảnh và thưởng thức đặc sản địa phương. Điểm đến thuộc loại hình văn hóa – lịch sử, phù hợp chuyến đi nửa ngày hoặc một ngày, ngân sách dưới 500.000 đồng/người.",
+    "image": "assets/destinations/T23.jpg",
+    "source_caption": "Hình 23. Nhà cổ Huỳnh Thủy Lê",
+    "video": "assets/videos/T23.mp4"
+  },
+  {
+    "code": "T24",
+    "name": "Làng nghề bánh tráng Thuận Hưng",
+    "description": "Làng nghề bánh tráng Thuận Hưng thuộc thành phố Cần Thơ, cách trung tâm hành chính tỉnh khoảng 30–100 km, là làng nghề truyền thống với cảnh phơi bánh tráng trên giàn dọc lối đi. Du khách tìm hiểu quy trình làm bánh, trải nghiệm sinh hoạt nông thôn và thưởng thức đặc sản. Điểm đến thuộc loại hình nông nghiệp – làng nghề, phù hợp chuyến đi nửa ngày hoặc một ngày, ngân sách chủ yếu dưới 300.000 đồng/người.",
+    "image": "assets/destinations/T24.jpg",
+    "source_caption": "Hình 24. Phơi bánh tráng tại làng nghề Thuận Hưng",
+    "video": "assets/videos/T24.mp4"
+  },
+  {
+    "code": "T25",
+    "name": "Chùa Âng",
+    "description": "Chùa Âng thuộc tỉnh Vĩnh Long (khu vực Trà Vinh cũ), cách trung tâm hành chính tỉnh khoảng 30–100 km, là ngôi chùa Khmer cổ có kiến trúc và hoa văn đặc trưng, nằm gần ao Bà Om. Du khách tham quan chùa, tìm hiểu văn hóa tín ngưỡng, kiến trúc và tham gia lễ hội truyền thống khi có tổ chức. Điểm đến thuộc loại hình du lịch tâm linh, phù hợp chuyến đi từ nửa ngày đến hai ngày một đêm, ngân sách từ thấp đến dưới 1.000.000 đồng/người.",
+    "image": "assets/destinations/T25.jpg",
+    "source_caption": "Hình 25. Chùa Âng",
+    "video": "assets/videos/T25.mp4"
+  },
+  {
+    "code": "T26",
+    "name": "Khu di tích khảo cổ Óc Eo – Ba Thê",
+    "description": "Khu di tích khảo cổ Óc Eo – Ba Thê thuộc tỉnh An Giang, cách trung tâm hành chính tỉnh khoảng 30–100 km, là di tích gắn với nền văn hóa Óc Eo – Phù Nam, trong đó có di tích Gò Cây Thị B. Du khách tham quan di tích, tìm hiểu lịch sử và không gian trưng bày kiến trúc cổ. Điểm đến thuộc loại hình văn hóa – lịch sử, phù hợp chuyến đi nửa ngày đến hai ngày một đêm, ngân sách từ thấp đến dưới 1.000.000 đồng/người.",
+    "image": "assets/destinations/T26.jpg",
+    "source_caption": "Hình 26. Di tích Gò Cây Thị B thuộc Khu di tích khảo cổ Óc Eo – Ba Thê",
+    "video": "assets/videos/T26.mp4"
+  },
+  {
+    "code": "T27",
+    "name": "Khu du lịch Làng nổi Tân Lập",
+    "description": "Khu du lịch Làng nổi Tân Lập thuộc tỉnh Tây Ninh (khu vực Long An cũ), cách trung tâm hành chính tỉnh khoảng 30–100 km, nằm giữa rừng tràm và kênh rạch của vùng Đồng Tháp Mười. Du khách đi xuồng, tham quan rừng tràm và cảnh quan đất ngập nước, quan sát chim và chụp ảnh thiên nhiên. Điểm đến thuộc loại hình sinh thái rừng – đất ngập nước, phù hợp chuyến đi từ nửa ngày đến hai ngày một đêm, ngân sách từ thấp đến dưới 1.000.000 đồng/người.",
+    "image": "assets/destinations/T27.jpg",
+    "source_caption": "Hình 27. Khu du lịch Làng nổi Tân Lập",
+    "video": "assets/videos/T27.mp4"
+  },
+  {
+    "code": "T28",
+    "name": "Khu bảo tồn đất ngập nước Láng Sen",
+    "description": "Khu bảo tồn đất ngập nước Láng Sen thuộc tỉnh Tây Ninh (khu vực Long An cũ), cách trung tâm hành chính tỉnh khoảng 100–200 km, là vùng đất ngập nước đặc trưng của Đồng Tháp Mười với đồng sen, rừng tràm và nhiều loài chim nước. Du khách tham quan cảnh quan, quan sát chim, đi xuồng và chụp ảnh. Điểm đến thuộc loại hình sinh thái, phù hợp chuyến đi từ nửa ngày đến hai ngày một đêm, ngân sách từ thấp đến dưới 1.000.000 đồng/người.",
+    "image": "assets/destinations/T28.jpg",
+    "source_caption": "Hình 28. Khu bảo tồn đất ngập nước Láng Sen",
+    "video": "assets/videos/T28.mp4"
+  },
+  {
+    "code": "T29",
+    "name": "Khu du lịch Mũi Cà Mau",
+    "description": "Khu du lịch Mũi Cà Mau thuộc tỉnh Cà Mau, cách trung tâm hành chính tỉnh khoảng 30–100 km, là điểm cực Nam của Tổ quốc với rừng ngập mặn và vùng đất ngập nước ven biển. Du khách tham quan rừng và cảnh quan, tìm hiểu di tích, cột mốc, ngắm bình minh hoặc hoàng hôn và chụp ảnh. Điểm đến phù hợp chuyến đi một ngày hoặc từ ba ngày trở lên, ngân sách từ thấp đến dưới 1.000.000 đồng/người.",
+    "image": "assets/destinations/T29.jpg",
+    "source_caption": "Hình 29. Khu du lịch Mũi Cà Mau",
+    "video": "assets/videos/T29.mp4"
+  },
+  {
+    "code": "T30",
+    "name": "Đảo Hòn Sơn",
+    "description": "Đảo Hòn Sơn thuộc tỉnh An Giang (khu vực Kiên Giang cũ), cách trung tâm hành chính tỉnh khoảng 30–100 km tính cả chặng đường biển, là hòn đảo còn nhiều nét hoang sơ với bãi biển đẹp và không khí yên tĩnh. Du khách tắm biển, đi tàu hoặc thuyền tham quan đảo, ngắm bình minh hoặc hoàng hôn trên biển. Điểm đến thuộc loại hình du lịch biển đảo, phù hợp chuyến đi hai ngày một đêm trở lên, ngân sách từ thấp đến dưới 1.000.000 đồng/người.",
+    "image": "assets/destinations/T30.jpg",
+    "source_caption": "Hình 30. Đảo Hòn Sơn",
+    "video": "assets/videos/T30.mp4"
+  }
+]

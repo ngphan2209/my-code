@@ -1,0 +1,407 @@
+[
+  {
+    "code": "T1",
+    "label": "Làng du lịch Mỹ Khánh",
+    "group": "T"
+  },
+  {
+    "code": "T2",
+    "label": "Chợ nổi Cái Răng",
+    "group": "T"
+  },
+  {
+    "code": "T3",
+    "label": "Khu du lịch Cồn Phụng",
+    "group": "T"
+  },
+  {
+    "code": "T4",
+    "label": "Cù lao Thới Sơn",
+    "group": "T"
+  },
+  {
+    "code": "T5",
+    "label": "Làng du lịch Mỹ Xương",
+    "group": "T"
+  },
+  {
+    "code": "T6",
+    "label": "Làng hoa Sa Đéc",
+    "group": "T"
+  },
+  {
+    "code": "T7",
+    "label": "Khu di tích Xẻo Quýt",
+    "group": "T"
+  },
+  {
+    "code": "T8",
+    "label": "Khu du lịch sinh thái Gáo Giồng",
+    "group": "T"
+  },
+  {
+    "code": "T9",
+    "label": "Vườn quốc gia Tràm Chim",
+    "group": "T"
+  },
+  {
+    "code": "T10",
+    "label": "Rừng tràm Trà Sư",
+    "group": "T"
+  },
+  {
+    "code": "T11",
+    "label": "Miếu Bà Chúa Xứ Núi Sam",
+    "group": "T"
+  },
+  {
+    "code": "T12",
+    "label": "Khu bảo tồn thiên nhiên Lung Ngọc Hoàng",
+    "group": "T"
+  },
+  {
+    "code": "T13",
+    "label": "Vườn quốc gia U Minh Thượng",
+    "group": "T"
+  },
+  {
+    "code": "T14",
+    "label": "Chùa Dơi",
+    "group": "T"
+  },
+  {
+    "code": "T15",
+    "label": "Chùa Xiêm Cán",
+    "group": "T"
+  },
+  {
+    "code": "T16",
+    "label": "Nhà Công tử Bạc Liêu",
+    "group": "T"
+  },
+  {
+    "code": "T17",
+    "label": "VinWonders Phú Quốc",
+    "group": "T"
+  },
+  {
+    "code": "T18",
+    "label": "Sun World Hòn Thơm",
+    "group": "T"
+  },
+  {
+    "code": "T19",
+    "label": "Khu du lịch Suối Tranh",
+    "group": "T"
+  },
+  {
+    "code": "T20",
+    "label": "Bãi Cây Mến – đảo Nam Du",
+    "group": "T"
+  },
+  {
+    "code": "T21",
+    "label": "Điểm du lịch cộng đồng Cồn Sơn",
+    "group": "T"
+  },
+  {
+    "code": "T22",
+    "label": "Nhà cổ Bình Thủy",
+    "group": "T"
+  },
+  {
+    "code": "T23",
+    "label": "Nhà cổ Huỳnh Thủy Lê",
+    "group": "T"
+  },
+  {
+    "code": "T24",
+    "label": "Làng nghề bánh tráng Thuận Hưng",
+    "group": "T"
+  },
+  {
+    "code": "T25",
+    "label": "Chùa Âng",
+    "group": "T"
+  },
+  {
+    "code": "T26",
+    "label": "Khu di tích khảo cổ Óc Eo – Ba Thê",
+    "group": "T"
+  },
+  {
+    "code": "T27",
+    "label": "Khu du lịch Làng nổi Tân Lập",
+    "group": "T"
+  },
+  {
+    "code": "T28",
+    "label": "Khu bảo tồn đất ngập nước Láng Sen",
+    "group": "T"
+  },
+  {
+    "code": "T29",
+    "label": "Khu du lịch Mũi Cà Mau",
+    "group": "T"
+  },
+  {
+    "code": "T30",
+    "label": "Đảo Hòn Sơn",
+    "group": "T"
+  },
+  {
+    "code": "R1",
+    "label": "Cần Thơ",
+    "group": "R"
+  },
+  {
+    "code": "R2",
+    "label": "An Giang",
+    "group": "R"
+  },
+  {
+    "code": "R3",
+    "label": "Đồng Tháp",
+    "group": "R"
+  },
+  {
+    "code": "R4",
+    "label": "Vĩnh Long",
+    "group": "R"
+  },
+  {
+    "code": "R5",
+    "label": "Cà Mau",
+    "group": "R"
+  },
+  {
+    "code": "R6",
+    "label": "Tây Ninh (khu vực Long An cũ; áp dụng cho T27 và T28 trong danh sách địa điểm)",
+    "group": "R"
+  },
+  {
+    "code": "K1",
+    "label": "Không quá 30 km",
+    "group": "K"
+  },
+  {
+    "code": "K2",
+    "label": "Trên 30 km đến 100 km",
+    "group": "K"
+  },
+  {
+    "code": "K3",
+    "label": "Trên 100 km đến 200 km",
+    "group": "K"
+  },
+  {
+    "code": "K4",
+    "label": "Trên 200 km",
+    "group": "K"
+  },
+  {
+    "code": "N1",
+    "label": "Dưới 300.000 đồng/người/ngày",
+    "group": "N"
+  },
+  {
+    "code": "N2",
+    "label": "Từ 300.000 đến dưới 500.000 đồng/người/ngày",
+    "group": "N"
+  },
+  {
+    "code": "N3",
+    "label": "Từ 500.000 đến 1.000.000 đồng/người/ngày",
+    "group": "N"
+  },
+  {
+    "code": "N4",
+    "label": "Trên 1.000.000 đồng/người/ngày",
+    "group": "N"
+  },
+  {
+    "code": "V1",
+    "label": "Tham quan vườn cây ăn trái, thưởng thức trái cây theo mùa",
+    "group": "V"
+  },
+  {
+    "code": "V2",
+    "label": "Đi xuồng hoặc thuyền khám phá sông nước, kênh rạch",
+    "group": "V"
+  },
+  {
+    "code": "V3",
+    "label": "Tham quan chợ nổi, tìm hiểu hoạt động mua bán trên sông",
+    "group": "V"
+  },
+  {
+    "code": "V4",
+    "label": "Tham gia trò chơi dân gian, trải nghiệm nông thôn",
+    "group": "V"
+  },
+  {
+    "code": "V5",
+    "label": "Tìm hiểu nghề truyền thống và sản phẩm địa phương",
+    "group": "V"
+  },
+  {
+    "code": "V6",
+    "label": "Thưởng thức đờn ca tài tử",
+    "group": "V"
+  },
+  {
+    "code": "V7",
+    "label": "Thưởng thức ẩm thực, đặc sản địa phương",
+    "group": "V"
+  },
+  {
+    "code": "V8",
+    "label": "Tham quan rừng tràm và cảnh quan đất ngập nước",
+    "group": "V"
+  },
+  {
+    "code": "V9",
+    "label": "Quan sát chim, tìm hiểu hệ sinh thái tự nhiên",
+    "group": "V"
+  },
+  {
+    "code": "V10",
+    "label": "Tham quan di tích, tìm hiểu lịch sử",
+    "group": "V"
+  },
+  {
+    "code": "V11",
+    "label": "Tham quan chùa, miếu và tìm hiểu văn hóa tín ngưỡng",
+    "group": "V"
+  },
+  {
+    "code": "V12",
+    "label": "Tham gia lễ hội truyền thống khi có tổ chức",
+    "group": "V"
+  },
+  {
+    "code": "V13",
+    "label": "Tham quan kiến trúc, nhà cổ và không gian trưng bày",
+    "group": "V"
+  },
+  {
+    "code": "V14",
+    "label": "Tham quan làng hoa, tìm hiểu nghề trồng hoa",
+    "group": "V"
+  },
+  {
+    "code": "V15",
+    "label": "Chụp ảnh cảnh quan, ngắm bình minh hoặc hoàng hôn",
+    "group": "V"
+  },
+  {
+    "code": "V16",
+    "label": "Tắm biển, thư giãn tại bãi biển",
+    "group": "V"
+  },
+  {
+    "code": "V17",
+    "label": "Đi tàu hoặc thuyền tham quan biển đảo",
+    "group": "V"
+  },
+  {
+    "code": "V18",
+    "label": "Trải nghiệm trò chơi tại công viên chủ đề, công viên nước",
+    "group": "V"
+  },
+  {
+    "code": "V19",
+    "label": "Tham quan thủy cung",
+    "group": "V"
+  },
+  {
+    "code": "V20",
+    "label": "Trải nghiệm cáp treo vượt biển",
+    "group": "V"
+  },
+  {
+    "code": "L1",
+    "label": "Du lịch biển đảo",
+    "group": "L"
+  },
+  {
+    "code": "L2",
+    "label": "Du lịch văn hóa – lịch sử",
+    "group": "L"
+  },
+  {
+    "code": "L3",
+    "label": "Du lịch miệt vườn – sông nước",
+    "group": "L"
+  },
+  {
+    "code": "L4",
+    "label": "Du lịch vui chơi giải trí",
+    "group": "L"
+  },
+  {
+    "code": "L5",
+    "label": "Du lịch sinh thái rừng – đất ngập nước",
+    "group": "L"
+  },
+  {
+    "code": "L6",
+    "label": "Du lịch tâm linh – tín ngưỡng",
+    "group": "L"
+  },
+  {
+    "code": "L7",
+    "label": "Du lịch nông nghiệp – làng nghề",
+    "group": "L"
+  },
+  {
+    "code": "DT1",
+    "label": "Gia đình có trẻ em",
+    "group": "DT"
+  },
+  {
+    "code": "DT2",
+    "label": "Gia đình nhiều thế hệ",
+    "group": "DT"
+  },
+  {
+    "code": "DT3",
+    "label": "Nhóm bạn",
+    "group": "DT"
+  },
+  {
+    "code": "DT4",
+    "label": "Cặp đôi",
+    "group": "DT"
+  },
+  {
+    "code": "DT5",
+    "label": "Đi một mình",
+    "group": "DT"
+  },
+  {
+    "code": "DT6",
+    "label": "Đoàn học sinh, sinh viên",
+    "group": "DT"
+  },
+  {
+    "code": "TG1",
+    "label": "Nửa ngày",
+    "group": "TG"
+  },
+  {
+    "code": "TG2",
+    "label": "Một ngày",
+    "group": "TG"
+  },
+  {
+    "code": "TG3",
+    "label": "Hai ngày một đêm",
+    "group": "TG"
+  },
+  {
+    "code": "TG4",
+    "label": "Từ ba ngày trở lên",
+    "group": "TG"
+  }
+]

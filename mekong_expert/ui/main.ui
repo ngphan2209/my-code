@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ui version="4.0">
+  <class>MainWindow</class>
+  <widget class="QMainWindow" name="MainWindow">
+    <property name="windowTitle">
+      <string>Mekong • Hệ chuyên gia tư vấn du lịch</string>
+    </property>
+    <property name="minimumSize">
+      <size>
+        <width>850</width>
+        <height>600</height>
+      </size>
+    </property>
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1200</width>
+        <height>780</height>
+      </rect>
+    </property>
+    <property name="styleSheet">
+      <string>
+QWidget { font-family: "Segoe UI", "DejaVu Sans"; font-size: 14px; color: #173e35; }
+QMainWindow { background: #f4f8f1; }
+QLabel#homeTitle { font-size: 36px; font-weight: 700; color: #185c4b; }
+QLabel#homeSubtitle { font-size: 18px; }
+QLabel#consultTitle { font-size: 24px; font-weight: 700; color: #185c4b; }
+QLabel#resultTitle { font-size: 16px; font-weight: 700; }
+QFrame#homePanel, QGroupBox { background: rgba(255,255,250,235); border: 1px solid #d1e1d5; border-radius: 12px; }
+QGroupBox { margin-top: 10px; padding: 10px; font-weight: 600; }
+QGroupBox::title { subcontrol-origin: margin; left: 14px; }
+QComboBox { background: white; border: 1px solid #adc9bb; border-radius: 5px; padding: 6px; min-height: 22px; }
+QComboBox QAbstractItemView { background: white; color: #173e35; selection-background-color: #d6ecdf; }
+QPushButton { background: #24705b; color: white; border: none; border-radius: 6px; padding: 9px 12px; font-weight: 600; }
+QPushButton:hover { background: #18513f; }
+QPushButton:focus { border: 2px solid #8ac4aa; }
+QPushButton#xoa_btt, QPushButton#quaylai_btt, QPushButton#guide_btt { background: #e2efe5; color: #173e35; }
+QTextEdit, QListWidget { background: rgba(255,255,255,245); border: 1px solid #bad3c4; border-radius: 6px; padding: 7px; }
+QListWidget::item { padding: 8px; }
+QListWidget::item:selected { background: #d2eadc; color: #123f31; }
+QLabel#status_lb { background: rgba(255,255,250,235); padding: 7px; border-radius: 6px; }
+QTabWidget::pane { border: none; }
+QTabBar::tab { padding: 9px 15px; background: #e0ece2; }
+QTabBar::tab:selected { background: white; color: #185c4b; }
+QScrollArea { border: none; background: transparent; }
+QVideoWidget { background: #101714; }
+</string>
+    </property>
+    <widget class="QWidget" name="centralwidget">
+      <layout class="QVBoxLayout" name="centralLayout">
+        <item>
+          <widget class="QStackedWidget" name="pages">
+            <property name="currentIndex">
+              <number>0</number>
+            </property>
+            <widget class="QWidget" name="home_page">
+              <layout class="QHBoxLayout" name="homeLayout">
+                <property name="leftMargin">
+                  <number>45</number>
+                </property>
+                <property name="topMargin">
+                  <number>60</number>
+                </property>
+                <property name="bottomMargin">
+                  <number>60</number>
+                </property>
+                <item>
+                  <widget class="QFrame" name="homePanel">
+                    <property name="maximumSize">
+                      <size>
+                        <width>560</width>
+                        <height>16777215</height>
+                      </size>
+                    </property>
+                    <layout class="QVBoxLayout" name="homePanelLayout">
+                      <property name="leftMargin">
+                        <number>28</number>
+                      </property>
+                      <property name="topMargin">
+                        <number>28</number>
+                      </property>
+                      <property name="rightMargin">
+                        <number>28</number>
+                      </property>
+                      <property name="bottomMargin">
+                        <number>28</number>
+                      </property>
+                      <item>
+                        <widget class="QLabel" name="eyebrow">
+                          <property name="text">
+                            <string>HÀNH TRÌNH MIỀN TÂY</string>
+                          </property>
+                        </widget>
+                      </item>
+                      <item>
+                        <widget class="QLabel" name="homeTitle">
+                          <property name="text">
+                            <string>Hệ chuyên gia
+tư vấn địa điểm du lịch
+Đồng bằng sông Cửu Long</string>
+                          </property>
+                          <property name="wordWrap">
+                            <bool>true</bool>
+                          </property>
+                        </widget>
+                      </item>
+                      <item>
+                        <widget class="QLabel" name="homeSubtitle">
+                          <property name="text">
+                            <string>Chọn hành trình từ sở thích của bạn.
+30 địa điểm • 7 tiêu chí • Suy luận theo luật</string>
+                          </property>
+                          <property name="wordWrap">
+                            <bool>true</bool>
+                          </property>
+                        </widget>
+                      </item>
+                      <item>
+                        <widget class="QPushButton" name="start_btt">
+                          <property name="text">
+                            <string>Bắt đầu tư vấn</string>
+                          </property>
+                        </widget>
+                      </item>
+                      <item>
+                        <widget class="QPushButton" name="guide_btt">
+                          <property name="text">
+                            <string>Hướng dẫn</string>
+                          </property>
+                        </widget>
+                      </item>
+                      <item>
+                        <widget class="QPushButton" name="exit_btt">
+                          <property name="text">
+                            <string>Thoát</string>
+                          </property>
+                        </widget>
+                      </item>
+                      <item>
+                        <widget class="QLabel" name="homeDisclaimer">
+                          <property name="text">
+                            <string>Dữ liệu dùng cho đồ án, có giới hạn theo cơ sở tri thức.</string>
+                          </property>
+                          <property name="wordWrap">
+                            <bool>true</bool>
+                          </property>
+                        </widget>
+                      </item>
+                    </layout>
+                  </widget>
+                </item>
+                <item>
+                  <spacer name="homeSpace">
+                    <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint">
+                      <size>
+                        <width>40</width>
+                        <height>20</height>
+                      </size>
+                    </property>
+                  </spacer>
+                </item>
+              </layout>
+            </widget>
+            <widget class="QWidget" name="consult_page">
+              <layout class="QVBoxLayout" name="consultLayout">
+                <item>
+                  <widget class="QLabel" name="consultTitle">
+                    <property name="text">
+                      <string>Tìm một điểm đến phù hợp với bạn</string>
+                    </property>
+                    <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                      </sizepolicy>
+                    </property>
+                  </widget>
+                </item>
+                <item>
+                  <widget class="QSplitter" name="mainSplitter">
+                    <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                    </property>
+                    <widget class="QWidget" name="criteriaPanel">
+                      <layout class="QVBoxLayout" name="criteriaPanelLayout">
+                        <item>
+                          <widget class="QScrollArea" name="criteriaScroll">
+                            <property name="widgetResizable">
+                              <bool>true</bool>
+                            </property>
+                            <property name="minimumSize">
+                              <size>
+                                <width>270</width>
+                                <height>0</height>
+                              </size>
+                            </property>
+                            <widget class="QWidget" name="criteriaContents">
+                              <layout class="QVBoxLayout" name="criteriaLayout">
+                                <item>
+                                  <widget class="QGroupBox" name="criteriaBox">
+                                    <property name="title">
+                                      <string>Lựa chọn của bạn</string>
+                                    </property>
+                                    <layout class="QFormLayout" name="criteriaForm">
+                                      <property name="rowWrapPolicy">
+                                        <enum>QFormLayout::WrapAllRows</enum>
+                                      </property>
+                                      <property name="horizontalSpacing">
+                                        <number>10</number>
+                                      </property>
+                                      <item row="0" column="0">
+                                        <widget class="QLabel" name="tinhthanh_cb_label">
+                                          <property name="text">
+                                            <string>Tỉnh/thành phố</string>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="0" column="1">
+                                        <widget class="QComboBox" name="tinhthanh_cb">
+                                          <property name="sizeAdjustPolicy">
+                                            <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+                                          </property>
+                                          <property name="minimumContentsLength">
+                                            <number>12</number>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="1" column="0">
+                                        <widget class="QLabel" name="khoangcach_cb_label">
+                                          <property name="text">
+                                            <string>Khoảng cách</string>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="1" column="1">
+                                        <widget class="QComboBox" name="khoangcach_cb">
+                                          <property name="sizeAdjustPolicy">
+                                            <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+                                          </property>
+                                          <property name="minimumContentsLength">
+                                            <number>12</number>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="2" column="0">
+                                        <widget class="QLabel" name="ngansach_cb_label">
+                                          <property name="text">
+                                            <string>Ngân sách</string>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="2" column="1">
+                                        <widget class="QComboBox" name="ngansach_cb">
+                                          <property name="sizeAdjustPolicy">
+                                            <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+                                          </property>
+                                          <property name="minimumContentsLength">
+                                            <number>12</number>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="3" column="0">
+                                        <widget class="QLabel" name="trainghiem_cb_label">
+                                          <property name="text">
+                                            <string>Trải nghiệm</string>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="3" column="1">
+                                        <widget class="QComboBox" name="trainghiem_cb">
+                                          <property name="sizeAdjustPolicy">
+                                            <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+                                          </property>
+                                          <property name="minimumContentsLength">
+                                            <number>12</number>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="4" column="0">
+                                        <widget class="QLabel" name="loaihinh_cb_label">
+                                          <property name="text">
+                                            <string>Loại hình</string>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="4" column="1">
+                                        <widget class="QComboBox" name="loaihinh_cb">
+                                          <property name="sizeAdjustPolicy">
+                                            <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+                                          </property>
+                                          <property name="minimumContentsLength">
+                                            <number>12</number>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="5" column="0">
+                                        <widget class="QLabel" name="nhomdi_cb_label">
+                                          <property name="text">
+                                            <string>Nhóm người cùng đi</string>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="5" column="1">
+                                        <widget class="QComboBox" name="nhomdi_cb">
+                                          <property name="sizeAdjustPolicy">
+                                            <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+                                          </property>
+                                          <property name="minimumContentsLength">
+                                            <number>12</number>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="6" column="0">
+                                        <widget class="QLabel" name="thoigian_cb_label">
+                                          <property name="text">
+                                            <string>Thời gian</string>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <item row="6" column="1">
+                                        <widget class="QComboBox" name="thoigian_cb">
+                                          <property name="sizeAdjustPolicy">
+                                            <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+                                          </property>
+                                          <property name="minimumContentsLength">
+                                            <number>12</number>
+                                          </property>
+                                        </widget>
+                                      </item>
+                                      <property name="verticalSpacing">
+                                        <number>4</number>
+                                      </property>
+                                    </layout>
+                                  </widget>
+                                </item>
+                              </layout>
+                            </widget>
+                          </widget>
+                        </item>
+                        <item>
+                          <layout class="QHBoxLayout" name="criteriaActionsLayout">
+                            <item>
+                              <widget class="QPushButton" name="tuvan_btt">
+                                <property name="text">
+                                  <string>Tư vấn</string>
+                                </property>
+                              </widget>
+                            </item>
+                            <item>
+                              <widget class="QPushButton" name="xoa_btt">
+                                <property name="text">
+                                  <string>Xóa</string>
+                                </property>
+                              </widget>
+                            </item>
+                            <item>
+                              <widget class="QPushButton" name="quaylai_btt">
+                                <property name="text">
+                                  <string>Trang chủ</string>
+                                </property>
+                              </widget>
+                            </item>
+                          </layout>
+                        </item>
+                      </layout>
+                    </widget>
+                    <widget class="QWidget" name="resultPanel">
+                      <layout class="QVBoxLayout" name="resultLayout">
+                        <item>
+                          <widget class="QLabel" name="resultTitle">
+                            <property name="text">
+                              <string>ĐỊA ĐIỂM PHÙ HỢP</string>
+                            </property>
+                          </widget>
+                        </item>
+                        <item>
+                          <widget class="QSplitter" name="resultSplitter">
+                            <property name="orientation">
+                              <enum>Qt::Horizontal</enum>
+                            </property>
+                            <widget class="QListWidget" name="ketqua_list">
+                              <property name="minimumSize">
+                                <size>
+                                  <width>150</width>
+                                  <height>140</height>
+                                </size>
+                              </property>
+                              <property name="wordWrap">
+                                <bool>true</bool>
+                              </property>
+                            </widget>
+                            <widget class="QLabel" name="hinhanh_lb">
+                              <property name="text">
+                                <string>Chọn tiêu chí để bắt đầu</string>
+                              </property>
+                              <property name="minimumSize">
+                                <size>
+                                  <width>120</width>
+                                  <height>180</height>
+                                </size>
+                              </property>
+                              <property name="alignment">
+                                <set>Qt::AlignCenter</set>
+                              </property>
+                              <property name="wordWrap">
+                                <bool>true</bool>
+                              </property>
+                              <property name="sizePolicy">
+                                <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+                                  <horstretch>0</horstretch>
+                                  <verstretch>0</verstretch>
+                                </sizepolicy>
+                              </property>
+                            </widget>
+                          </widget>
+                        </item>
+                        <item>
+                          <widget class="QTabWidget" name="detailTabs">
+                            <widget class="QWidget" name="descriptionTab">
+                              <attribute name="title">
+                                <string>Thông tin địa điểm</string>
+                              </attribute>
+                              <layout class="QVBoxLayout" name="descriptionTabLayout">
+                                <item>
+                                  <widget class="QTextEdit" name="mota_text">
+                                    <property name="readOnly">
+                                      <bool>true</bool>
+                                    </property>
+                                  </widget>
+                                </item>
+                              </layout>
+                            </widget>
+                            <widget class="QWidget" name="explanationTab">
+                              <attribute name="title">
+                                <string>Lý do đề xuất / luật</string>
+                              </attribute>
+                              <layout class="QVBoxLayout" name="explanationTabLayout">
+                                <item>
+                                  <widget class="QTextEdit" name="giaithich_text">
+                                    <property name="readOnly">
+                                      <bool>true</bool>
+                                    </property>
+                                  </widget>
+                                </item>
+                              </layout>
+                            </widget>
+                            <widget class="QWidget" name="videoTab">
+                              <attribute name="title">
+                                <string>Video</string>
+                              </attribute>
+                              <layout class="QVBoxLayout" name="videoTabLayout">
+                                <item>
+                                  <widget class="QLabel" name="video_status_lb">
+                                    <property name="text">
+                                      <string>Chưa có video cho địa điểm này.</string>
+                                    </property>
+                                    <property name="wordWrap">
+                                      <bool>true</bool>
+                                    </property>
+                                  </widget>
+                                </item>
+                                <item>
+                                  <widget class="QWidget" name="video_host">
+                                    <property name="minimumSize">
+                                      <size>
+                                        <width>200</width>
+                                        <height>112</height>
+                                      </size>
+                                    </property>
+                                    <property name="sizePolicy">
+                                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred" hasHeightForWidth="true">
+                                        <horstretch>1</horstretch>
+                                        <verstretch>0</verstretch>
+                                      </sizepolicy>
+                                    </property>
+                                    <layout class="QVBoxLayout" name="video_host_layout"/>
+                                  </widget>
+                                </item>
+                                <item>
+                                  <layout class="QHBoxLayout" name="video_buttons_layout">
+                                    <item>
+                                      <widget class="QPushButton" name="video_play_btt">
+                                        <property name="text">
+                                          <string>Phát</string>
+                                        </property>
+                                      </widget>
+                                    </item>
+                                    <item>
+                                      <widget class="QPushButton" name="video_stop_btt">
+                                        <property name="text">
+                                          <string>Dừng</string>
+                                        </property>
+                                      </widget>
+                                    </item>
+                                  </layout>
+                                </item>
+                              </layout>
+                            </widget>
+                          </widget>
+                        </item>
+                      </layout>
+                    </widget>
+                  </widget>
+                </item>
+                <item>
+                  <widget class="QLabel" name="status_lb">
+                    <property name="text">
+                      <string>Chọn đủ bảy tiêu chí, sau đó bấm Tư vấn.</string>
+                    </property>
+                    <property name="wordWrap">
+                      <bool>true</bool>
+                    </property>
+                    <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                      </sizepolicy>
+                    </property>
+                  </widget>
+                </item>
+              </layout>
+            </widget>
+          </widget>
+        </item>
+      </layout>
+    </widget>
+  </widget>
+  <resources />
+  <connections />
+</ui>
